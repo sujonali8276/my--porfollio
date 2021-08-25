@@ -18,7 +18,7 @@ section {
     background-repeat: no-repeat;
 }
 
-.heding-div {
+.half-width {
     box-sizing: border-box;
     width: 50%;
     float: left;
@@ -51,8 +51,61 @@ h1 {
     width: 100px;
     background-color: darkorchid;
     transition: 0.5s;
+    border-radius: 10px;
 }
 
 .btn-class:hover {
     transform: scaleX(1.1);
+}
+
+.dream-section {
+    float: left;
+    background-image: url("images/my-bg.png");
+    background-repeat: no-repeat;
+}
+
+.experience-section {
+    justify-content: center;
+    padding-left: 70px;
+    float: left;
+}
+
+.ex-half-width {
+    width: 40%;
+    height: 300px;
+    float: left;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+    border-left: 5px solid blue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 7px 12px darkgray;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+
+.footer-class {
+    width: 100%;
+    float: left;
+    background-image: url("images/my-bg.png");
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid magenta;
+    margin: 10px;
+}
+
+.footer-class a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.footer-class a:hover {
+    color: blue;
+}
+
+.footer-class p {
+    margin: 20px;
 }
