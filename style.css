@@ -9,6 +9,15 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+section {
+    height: 100vh;
+}
+
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
 .heding-div {
     box-sizing: border-box;
     width: 50%;
@@ -29,4 +38,21 @@ h1 {
     width: 80%;
     height: 50%;
     border-radius: 50%;
+}
+
+.btn-class a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.btn-class {
+    padding: 10px;
+    width: 100px;
+    background-color: darkorchid;
+    transition: 0.5s;
+}
+
+.btn-class:hover {
+    transform: scaleX(1.1);
 }
